@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/************************* header style ************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px;
+  background-color: antiquewhite;
+}
+
+header img {
+  border-radius: 50px;
+}
+
+/******************* main style ****************/
+
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.total h3 {
+  font-size: 30px;
+  margin-right: 50px;
+}
+.total p {
+  font-size: 30px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.product img {
+  width: 200px;
+}
+
+.product button {
+  width: 100px;
+}
+
+.minus,
+.plus {
+  width: 50px !important;
+  border-radius: 100%;
+}
+
+.heart {
+  background-image: url("https://e7.pngegg.com/pngimages/546/849/png-clipart-heart-logo-heart-love-text.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+}
+.red {
+  background-image: url("https://i.pinimg.com/originals/e7/6d/bb/e76dbbd8285f610b851078ef6fc3eda9.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+}
+
+/********************* Footer **************/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 20px;
+}
